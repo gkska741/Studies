@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Articles</h2>
+  <a href="{% url 'articles:create' %}" class="btn btn-primary">새글작성</a>
+  <hr>
+  {% for article in articles %}
+    <p>글 번호: {{article.pk}} </p>
+    <p>제목 : {{ article.title}} </p>
+    <p>내용 : {{ article.content }} </p>
+    <a href="{% url 'articles:detail' article.pk %}" class="btn btn-primary">상세보기</a>
+    <hr>
+  {% endfor %}
+
+{% endblock %}

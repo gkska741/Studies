@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button> 댕댕이 </button>
+
+  <div class="dog-box">
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script>
+      const URL = 'https://dog.ceo/api/breeds/image/random'
+      const myButton = document.querySelector('button')
+
+      myButton.addEventListener('click', function () {
+        axios.get(URL)
+          .then(response => {
+            return response.data
+
+          })
+          .then(response => {
+            const imgUrl = response.message
+
+            const newImgTag = document.createElement('img')
+
+            newImgTag.src = imgUrl
+            
+            const dogBox = document.querySelector('.dog-box')
+            dogBox.appendChild(newImgTag)
+          })
+          .catch(error => {
+            console.log(error)
+          })
+      })
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load bootstrap5%}
+
+{% block content %}
+  {% comment "" %}<img src="{% static 'articles/sample-img-1.png' %}" alt="sample image">{% endcomment %}
+
+  <h2>DETAIL</h2>
+  <h3>{{ article.pk }} 번째 글</h3>
+  
+  <hr>
+  <p>제목 : {{ article.title }}</p>
+  <p>내용 : {{ article.content }}</p>
+
+  {% if article.image %}
+    <img src="{{ article.image_thumbnail.url }}" alt="{{ article.image_thumbnail }}">
+  {% else %}
+    <img src="{% static 'images/default.jpg' %}" alt="default image">
+  {% endif %}
+  <p>작성시각 : {{ article.created_at }}</p>
+  <p>수정시각 : {{ article.updated_at }}</p>
+  <hr>
+  <div class='container'>
+    <div class="row g-3">
+      <form action="{% url 'articles:update' article.pk %}" method="POST">
+        {% csrf_token %}
+        {% buttons submit='업데이트' %}{% endbuttons %}
+      </form>
+
+      <form action="{% url 'articles:delete' article.pk %}" method="POST">
+        {% csrf_token %}
+        {% buttons submit='삭제' %}{% endbuttons %}
+      </form>
+
+      <form action="{% url 'articles:index' %}">
+        {% csrf_token %}
+        {% buttons submit='돌아가기' %}{% endbuttons %}
+      </form>
+    </div>
+  </div>
+{% endblock content %}

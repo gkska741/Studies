@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+  <h1>UPDATE</h1>
+
+  <form action="{% url 'articles:update' article.pk %}" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons submit="저장" reset="초기화" %}{% endbuttons %}
+  </form>
+    
+  <hr>
+  <a href="{% url 'articles:index' %}" class="btn btn-primary">돌아가기</a>
+{% endblock %}
