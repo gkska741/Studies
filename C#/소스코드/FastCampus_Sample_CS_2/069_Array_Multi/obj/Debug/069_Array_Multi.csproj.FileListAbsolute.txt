@@ -1,0 +1,13 @@
+D:\Exam_CS\FastCampus_Sample_CS\069_Array_Multi\bin\Debug\_069_Array_Multi.exe.config
+D:\Exam_CS\FastCampus_Sample_CS\069_Array_Multi\bin\Debug\_069_Array_Multi.exe
+D:\Exam_CS\FastCampus_Sample_CS\069_Array_Multi\bin\Debug\_069_Array_Multi.pdb
+D:\Exam_CS\FastCampus_Sample_CS\069_Array_Multi\obj\Debug\069_Array_Multi.csprojAssemblyReference.cache
+D:\Exam_CS\FastCampus_Sample_CS\069_Array_Multi\obj\Debug\_069_Array_Multi.exe
+D:\Exam_CS\FastCampus_Sample_CS\069_Array_Multi\obj\Debug\_069_Array_Multi.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\bin\Debug\_069_Array_Multi.exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\bin\Debug\_069_Array_Multi.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\bin\Debug\_069_Array_Multi.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\obj\Debug\069_Array_Multi.csproj.AssemblyReference.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\obj\Debug\069_Array_Multi.csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\obj\Debug\_069_Array_Multi.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\069_Array_Multi\obj\Debug\_069_Array_Multi.pdb

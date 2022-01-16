@@ -1,0 +1,12 @@
+D:\Exam_CS\FastCampus_Sample_CS\085_class_has-a\bin\Debug\085_class_has-a.exe.config
+D:\Exam_CS\FastCampus_Sample_CS\085_class_has-a\bin\Debug\085_class_has-a.exe
+D:\Exam_CS\FastCampus_Sample_CS\085_class_has-a\bin\Debug\085_class_has-a.pdb
+D:\Exam_CS\FastCampus_Sample_CS\085_class_has-a\obj\Debug\085_class_has-a.exe
+D:\Exam_CS\FastCampus_Sample_CS\085_class_has-a\obj\Debug\085_class_has-a.pdb
+D:\Exam_CS\FastCampus_Sample_CS\085_class_has-a\obj\Debug\085_class_has-a.csprojAssemblyReference.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\085_class_has-a\bin\Debug\085_class_has-a.exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\085_class_has-a\bin\Debug\085_class_has-a.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\085_class_has-a\bin\Debug\085_class_has-a.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\085_class_has-a\obj\Debug\085_class_has-a.csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\085_class_has-a\obj\Debug\085_class_has-a.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\085_class_has-a\obj\Debug\085_class_has-a.pdb

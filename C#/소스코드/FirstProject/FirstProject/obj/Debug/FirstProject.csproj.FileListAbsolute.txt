@@ -1,0 +1,7 @@
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\bin\Debug\FirstProject.exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\bin\Debug\FirstProject.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\bin\Debug\FirstProject.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\obj\Debug\FirstProject.csproj.AssemblyReference.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\obj\Debug\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\obj\Debug\FirstProject.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FirstProject\FirstProject\obj\Debug\FirstProject.pdb

@@ -1,0 +1,6 @@
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\040_Operator_Bit\bin\Debug\040_Operator_Bit.exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\040_Operator_Bit\bin\Debug\040_Operator_Bit.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\040_Operator_Bit\bin\Debug\040_Operator_Bit.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\040_Operator_Bit\obj\Debug\040_Operator_Bit.csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\040_Operator_Bit\obj\Debug\040_Operator_Bit.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\040_Operator_Bit\obj\Debug\040_Operator_Bit.pdb

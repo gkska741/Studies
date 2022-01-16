@@ -1,0 +1,14 @@
+G:\FastCampus_Sample_CS\FastCampus_Sample_CS\051_Operator_while(true)\bin\Debug\051_Operator_while(true).exe.config
+G:\FastCampus_Sample_CS\FastCampus_Sample_CS\051_Operator_while(true)\bin\Debug\051_Operator_while(true).exe
+G:\FastCampus_Sample_CS\FastCampus_Sample_CS\051_Operator_while(true)\bin\Debug\051_Operator_while(true).pdb
+G:\FastCampus_Sample_CS\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).csproj.CoreCompileInputs.cache
+G:\FastCampus_Sample_CS\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).exe
+G:\FastCampus_Sample_CS\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).pdb
+C:\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).exe
+C:\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FastCampus_Sample_CS\051_Operator_while(true)\bin\Debug\051_Operator_while(true).exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FastCampus_Sample_CS\051_Operator_while(true)\bin\Debug\051_Operator_while(true).exe
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FastCampus_Sample_CS\051_Operator_while(true)\bin\Debug\051_Operator_while(true).pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).exe
+C:\Users\Kimseonghyun\Desktop\Study\C#프로그래밍\FastCampus_Sample_CS\051_Operator_while(true)\obj\Debug\051_Operator_while(true).pdb

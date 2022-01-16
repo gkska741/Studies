@@ -1,0 +1,12 @@
+D:\Exam_CS\FastCampus_Sample_CS\086_partial\bin\Debug\086_partial.exe.config
+D:\Exam_CS\FastCampus_Sample_CS\086_partial\bin\Debug\086_partial.exe
+D:\Exam_CS\FastCampus_Sample_CS\086_partial\bin\Debug\086_partial.pdb
+D:\Exam_CS\FastCampus_Sample_CS\086_partial\obj\Debug\086_partial.exe
+D:\Exam_CS\FastCampus_Sample_CS\086_partial\obj\Debug\086_partial.pdb
+D:\Exam_CS\FastCampus_Sample_CS\086_partial\obj\Debug\086_partial.csprojAssemblyReference.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\086_partial\bin\Debug\086_partial.exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\086_partial\bin\Debug\086_partial.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\086_partial\bin\Debug\086_partial.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\086_partial\obj\Debug\086_partial.csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\086_partial\obj\Debug\086_partial.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\086_partial\obj\Debug\086_partial.pdb

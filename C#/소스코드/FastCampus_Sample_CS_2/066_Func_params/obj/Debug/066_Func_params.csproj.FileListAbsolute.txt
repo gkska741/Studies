@@ -1,0 +1,11 @@
+D:\Exam_CS\FastCampus_Sample_CS\066_Func_params\bin\Debug\066_Func_params.exe.config
+D:\Exam_CS\FastCampus_Sample_CS\066_Func_params\bin\Debug\066_Func_params.exe
+D:\Exam_CS\FastCampus_Sample_CS\066_Func_params\bin\Debug\066_Func_params.pdb
+D:\Exam_CS\FastCampus_Sample_CS\066_Func_params\obj\Debug\066_Func_params.exe
+D:\Exam_CS\FastCampus_Sample_CS\066_Func_params\obj\Debug\066_Func_params.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\066_Func_params\bin\Debug\066_Func_params.exe.config
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\066_Func_params\bin\Debug\066_Func_params.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\066_Func_params\bin\Debug\066_Func_params.pdb
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\066_Func_params\obj\Debug\066_Func_params.csproj.CoreCompileInputs.cache
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\066_Func_params\obj\Debug\066_Func_params.exe
+C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS_2\066_Func_params\obj\Debug\066_Func_params.pdb
