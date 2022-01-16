@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  {% if article.image %}
+    <img src="{{article.image_thumbnail.url}}" alt="{{article.image_thumbnail}}">  
+  {% endif %}
+  <p>title : {{article.title}}</p>
+  <p>content : {{article.content}}</p>
+  <p>created_at : {{article.created_at}}</p>
+  <p>updated_at : {{article.updated_at}}</p>
+  <form action="{% url 'articles:delete' article.pk %}" method="POST">
+    {% csrf_token %}
+    <input type="submit" value="[DELETE]">
+  </form>
+  <form action="{% url 'articles:update' article.pk %}">
+    <input type="submit" value="[UPDATE]">
+  </form>
+{% endblock content %}
+

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>INDEX</h1>
+  <a href="{% url 'community:create' %}">CREATE</a><br>
+  <hr>
+  {% for form in forms %}
+    TITLE : {{form.title}}<br>
+    <a href="{% url 'community:detail' form.pk %}">DETAIL</a>
+    <hr>
+  {% endfor %}
+  
+{% endblock content %}
+
+
