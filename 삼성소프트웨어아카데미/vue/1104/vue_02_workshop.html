@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .completed {
+      text-decoration: line-through;
+      color: grey;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <select v-model="selected">
+      <option value="all">전체</option>
+      <option value="ing">진행중</option>
+      <option value="done">완료</option>
+    </select>
+    <input v-model="content" type="text">
+    <button @click="addTodo">+</button>
+    <br>
+    <ul>
+      <li v-for="todo in todoListByCategory" :key="todo.date">
+        <input v-model="todo.completed" type="checkbox">
+        <span :class="{ completed: todo.completed }">{{ todo.content }}</span>
+      </li>
+    </ul>
+    <button @click="deleteTodoList">완료된 할 일 지우기</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const APP_KEY = 'vue-todo-app'
+    const todoStorage = {
+      fetch: function () {
+        const jsonString = localStorage.getItem(APP_KEY)
+        return JSON.parse(jsonString) || []
+      },
+      save: function (todoList) {
+        const jsonString = JSON.stringify(todoList)
+        localStorage.setItem(APP_KEY, jsonString)
+      }
+    }
+
+    const app = new Vue({
+      el: '#app',
+      data: {
+        content: '',
+        todoList: todoStorage.fetch(),
+        selected: 'all',
+      },
+      methods: {
+        addTodo: function () {
+          const todo = {
+            content: this.content,
+            completed: false,
+            date: new Date().getTime(),
+          }
+          this.todoList.push(todo)
+          this.content = ''
+        },
+        deleteTodoList: function () {
+          this.todoList = this.todoList.filter(todo => {
+            return !todo.completed
+          })
+        }
+      },
+      computed: {
+        todoListByCategory: function () {
+          const result = this.todoList.filter(todo => {
+            if (this.selected === 'ing') {              
+              return !todo.completed
+            } 
+            if (this. selected === 'done') {
+              return todo.completed
+            }
+            return true
+          })
+          return result
+        }
+      },
+      watch: {
+        todoList: {
+          handler: function (todoList) {
+           todoStorage.save(todoList)
+          },
+          deep: true
+        }
+      }
+    })
+  </script>
+</body>
+</html>

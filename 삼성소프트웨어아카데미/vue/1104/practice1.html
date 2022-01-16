@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const user = {
+      name: 'hong',
+      age: 10,
+      flag: true
+    }
+    const userJson = JSON.stringify(user)
+    localStorage.setItem('user_key', userJson)
+
+    const obj = JSON.parse(localStorage.getItem('user_key'))
+    console.log(obj)
+    console.log(typeof obj)
+  </script>
+  
+</body>
+</html>
