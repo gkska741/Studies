@@ -1,7 +1,0 @@
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\bin\Debug\001_HelloWorld1.exe.config
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\bin\Debug\001_HelloWorld1.exe
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\bin\Debug\001_HelloWorld1.pdb
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\obj\Debug\001_HelloWorld1.csproj.AssemblyReference.cache
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\obj\Debug\001_HelloWorld1.csproj.CoreCompileInputs.cache
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\obj\Debug\001_HelloWorld1.exe
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\001_HelloWorld1\obj\Debug\001_HelloWorld1.pdb

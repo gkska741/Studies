@@ -1,6 +1,0 @@
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\056_Check\bin\Debug\056_Check.exe.config
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\056_Check\bin\Debug\056_Check.exe
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\056_Check\bin\Debug\056_Check.pdb
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\056_Check\obj\Debug\056_Check.csproj.CoreCompileInputs.cache
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\056_Check\obj\Debug\056_Check.exe
-C:\Users\Kimseonghyun\Desktop\Study\C#\소스코드\FastCampus_Sample_CS\056_Check\obj\Debug\056_Check.pdb
