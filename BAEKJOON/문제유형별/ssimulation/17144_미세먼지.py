@@ -29,12 +29,6 @@ def flush():
     for c, r, x in stash:
         board[c][r] += x
 
-
-
-
-
-
-
 C, R, T = map(int, input().split())
 board = [list(map(int, input().split())) for _ in range(C)]
 
