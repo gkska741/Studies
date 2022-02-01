@@ -1,0 +1,103 @@
+## [CPU 스케쥴링#1](https://core.ewha.ac.kr/publicview/C0101020140328151311578473?vmode=f)
+
+- 중요한 두가지 이슈
+  - 누구에게 CPU를 할당할 것인가
+  - 얼마나 긴 시간동안 CPU를 할당할 것인가
+- Scheduling Criteria(스케쥴링에 대한 성능 척도)
+  - CPU utilization(이용률)
+    - CPU 사용이 비지 않게 지속하는 정도
+  - Throughput(처리량)
+    - 주어진 시간동안 얼마나 많은 작업을 처리했는가
+  - Turnaround time(소요시간, 반환시간)
+    - 특정 프로세스를 처리하는데 사용된 시간(다 쓰고 나갈때까지 걸린 시간)
+  - Wating time(대기 시간)
+    - CPU를 쓰고자 할 때 Ready큐에 기다리게 하는데, 그시간을 의미함
+  - Response time(응답 시간)
+    - 응답을 요청하여 그 요청을 최초로 응답하는데 걸린 시간
+    - Time-sharing environment를 위해서 존재
+
+- CPU Scheduling Methods
+  - FCFS( First-Come First-Served)
+    - 먼저 들어온 프로세스 순으로 처리
+    - 저효율 
+    - 먼저 들어온 프로세스가 많은 시간 처리를 요할 경우 효율 감소(Convoy Effect)
+  - SJF (Shortest-Job-First)
+    - 각 프로세스의 다음번 CPU burst time을 가지고 스케쥴링에 활용
+    - CPU burst time을 비교하여 가장 짧은 프로세슬르 제일 먼저 스케쥴링한다.
+    - Nonpreemtive : 더 짧은 프로세스가 도착하더라도 기존의 프로세스를 진행
+    - Preemtive : 더 짧은 burst time을 가진 새로운 프로세스가 도착하면 CPU를 뺏긴다
+      - 이 방법을 Shortest-Remaining-Time-First라고 부른다.
+    - 다음 번 CPU burst Time의 예측과 추정
+      - 과거의 CPU burst time을 이용하여 추정한다.
+      - t = actual length of nth CPU Burst
+      - x = predicted value for the next CPU burst
+      - a, 0 <= a < 1
+      - xn+1 = atn + (1-a)xn 
+      - 과거의 값을 이용하여 CPU burst time을 예측, SJF에 사용
+  - Priority Scheduling : 우선순위에 의한 CPU 할당
+    - Preemtive, Nonpreemtive 스케쥴링 존재
+    - SJF는 우선순위를 CPU burst time에 의한 Priority Scheduling
+    - 단점 : Starvation : 저순위 프로세스는 동작하지 않음
+      - 해결법 : 시간에 비례하여 프로세스의 우선도가 높아짐
+  - Round Robin(RR)
+    - 각 프로세스는 동일한 크기의 할당 시간을 가짐(time quantum)
+    - 할당 시간 후 다른 프로세스에 의해 선점당하고, ready queue  마지막으로 이동
+    - n개의 프로세스가 ready queue에 있고, q time unit인 경우 각 프로세스는 (n-1)q이상 기다리지 않는다.
+    - performance
+      - q large = FCFS : 할당시간이 클 경우 선입선출 효과를 볼 수 있다.
+      - q small = Context switch : 오버헤드가 커지는 결과를 낳을 수 있음
+
+
+
+## [CPU 스케쥴링#2 - Multilevel Scheduling](https://core.ewha.ac.kr/publicview/C0101020140401134252676046?vmode=f)
+
+- MultiLevel Queue
+  - 우선순위가 높은 순대로 서술
+  - system processes
+  - interactive processes
+  - interactive editing processes
+  - batch processes
+  - student processes
+  - 우선순위가 높은 프로세스가 큐에 있을 경우 그 프로세스를 먼저 처리한다.
+  - Ready queue를 여러 개로 분할
+    - foreground(interactive) - RR을 쓰는게 나을 수 있다.
+    - background(batch - no human interaction) - FCFS를 쓰는 게 효율정
+  - 큐에 대한 스케줄링이 필요
+    - Fixed Priority scheduling
+      - 높은 우선순위를 가지는 프로세스를 우선적으로 처리
+      - starvation의 확률
+    - Time Slice
+      - 각 큐에 CPU time을 적절한 비율로 할당하여 starvation을 예방
+- Multilevel Feedback Queue
+  - 프로세스가 다른 큐로 이동 가능
+  - aging 구현 가능
+- Multiple-Processor Scheduling
+  - CPU가 여러 개인 경우
+  - Homogeneous Processor인 경우
+    - Queue에 한줄로 세워서 각 프로세스가 알아서 꺼내가게 할 수 있다.
+    - 반드시 특정 프로세서에서 수행되어야 하는 프로세스가 있는 경우에는 더 복잡해진다.
+  - Load sharing
+    - 일부 프로세서에 job이 몰리지 않도록 부하를 적절히 공유하는 메커니즘 필요
+    - 별개의 큐를 두는 방법 vs 공동 큐를 두는 방법으로 나뉜다.
+  - Symmetric Multiprocessing(SMP)
+    - 각프로세서가 각자 알아서 스케쥴링을 결정
+  - Asymmetric multiprocessing
+    - 하나의 프로세서가 시스템 데이터의 접근과 공유를 책임지고 나머지 프로세서는 거기에 따른다.
+- Real-Time Scheduling
+  - Hard real-time systems
+    - 정해진 시간 안에 반드시 끝내도록 스케쥴링해야 함
+    - 데드라인이 보장되도록 배치
+  - Soft real-time computing
+    - 일반 프로세스에 비해 높은 priority를 갖도록 해야 함
+- Thread Scheduling
+  - Local Scheduling
+    - User level thread의 경우 사용자 수준의 thread library에 의해 어떤 thread를 스케쥴할지 결정
+  - Global Scheduling
+    - Kernel level thread의 경우 일반 프로세스와 마찬가지로 커널의 단기 스케쥴러가 어떤 thread를 스케쥴할 지 결정
+- Algorithm Evaluation
+  - Queueing models
+    - 확률 분포로 주어지는 arrival rate와 service rate 등을 통해 각종 performance index값을 계산한다.
+  - Implementation(구현) & Measurement(성능 측정)
+    - 실제 시스템에 알고리즘을 구현하여 실제 작업(workload)에 대해서 성능을 측정/비교
+  - Simulation (모의 실험)
+    - 알고리즘을 모의 프로그램으로 작성 후 trace를 입력으로 하여 결과 비교
