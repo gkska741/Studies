@@ -29,9 +29,4 @@ def bfs(arr):
             nc = c + dc[i]; nr = r + dr[i]
             if 0 <= nc < C and 0 <= nr < R:
                 go(nc, nr, i)
-
-                    
-
-
-
-
+                
